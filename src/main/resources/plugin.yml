@@ -9,6 +9,7 @@ commands:
   wincounts:
     usage: /wincounts
     permission: wincounts.command.wincounts
+    aliases: [ "wincount" ]
 
 permissions:
   wincounts.command.wincounts:
