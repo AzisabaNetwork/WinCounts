@@ -1,0 +1,15 @@
+name: ${project.name}
+version: ${project.version}
+main: net.azisaba.wincounts.WinCounts
+description: ${project.description}
+author: ${project.organization.name}
+website: ${project.url}
+
+commands:
+  wincounts:
+    usage: /wincounts
+    permission: wincounts.command.wincounts
+
+permissions:
+  wincounts.command.wincounts:
+    default: op
